@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+@theme {
+  --font-header: "DM Serif Text", serif;
+  --font-body: "Helvetica", sans-serif;
+  --color-header-purple: #bd8dfa;
+  --color-light-purple: #e6d3fe;
+  --color-medium-purple: #4C03AA;
+  --color-dark-purple: #4b03a8;
+  --color-white: #fff;
+  --color-darkmode-header: #15012c;
+  --text-shadow-sm: 1px 1px 1px rgba(0, 0, 0, 29%);
+  --text-shadow-xl: 1px 1px 1px var(--color-dark-purple);
+  --text-shadow-dark: 1px 1px 1px #000;
+
+}
