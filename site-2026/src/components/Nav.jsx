@@ -14,13 +14,13 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="relative pt-6 z-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 flex justify-center items-center">
+    <nav className="relative pt-6 z-50 bg-header-purple h-[15em]">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 flex justify-center">
         {/* Desktop Nav */}
-        <ul className="hidden md:flex justify-center flex-nowrap space-x-6 sm:space-x-1 overflow-x-auto">
+        <ul className="pt-25 hidden md:flex justify-center space-x-8 overflow-x-auto">
           {navLinks.map((link) => (
             <li key={link.label}>
-              <a href={link.href} className="navItem whitespace-nowrap">
+              <a href={link.href} className="navItem font-extrabold uppercase text-xl text-medium-purple flex justify-between">
                 {link.label}
               </a>
             </li>
@@ -33,17 +33,17 @@ export default function Nav() {
           className="md:hidden flex flex-col items-center space-y-1.5 w-14 h-12 focus:outline-none"
         >
           <span
-            className={`h-1 w-10 bg-black rounded transition-transform duration-300 origin-center ${
+            className={`h-1 w-10 bg-medium-purple rounded transition-transform duration-300 origin-center ${
               isOpen ? "rotate-45 translate-y-2.5" : ""
             }`}
           />
           <span
-            className={`h-1 w-10 bg-black rounded transition-opacity duration-300 ${
+            className={`h-1 w-10 bg-medium-purple rounded transition-opacity duration-300 ${
               isOpen ? "opacity-0" : ""
             }`}
           />
           <span
-            className={`h-1 w-10 bg-black rounded transition-transform duration-300 origin-center ${
+            className={`h-1 w-10 bg-medium-purple rounded transition-transform duration-300 origin-center ${
               isOpen ? "-rotate-45 -translate-y-1.5" : ""
             }`}
           />
