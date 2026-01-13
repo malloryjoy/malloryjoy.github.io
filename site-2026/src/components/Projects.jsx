@@ -4,7 +4,7 @@ class Projects extends React.Component {
     render() {
         
         return (<><section id="projects" role="region" aria-label="Sample Work" className="flex flex-col items-center justify-center px-4 bg-bio-purple py-20">
-            <h2 className="text-medium-purple text-2xl font-header">Sample Work</h2>
+            <h2 className="text-medium-purple py-5 text-2xl font-header">Sample Work</h2>
             <div id="projectItem">
                 <h2 className="font-header text-blurple text-xl">Arlington Club</h2>
                 <img src=""></img>
