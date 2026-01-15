@@ -1,19 +1,12 @@
 import React from 'react';
 
 class Footer extends React.Component {
+  
     render() {
-        
-        return (<><section id="footer" class="text-xs mt-14 bg-baby-pink text-black text-center pt-16 pb-8" >
-            <p>Copyright 2024 Mallory Joy. All Rights Reserved.</p>
-          
-          <p>ICONS: <a href="https://iconscout.com/icons/linkedin" class="text-underline font-size-sm" target="_blank">Linkedin</a> by <a href="https://iconscout.com/contributors/stonehub" class="text-underline font-size-sm">Stone Hub</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a> |
-            
-              <a href="https://iconscout.com/icons/github" class="text-underline font-size-sm" target="_blank">Github</a> by <a href="https://iconscout.com/contributors/pixel-icons" class="text-underline font-size-sm">Pixel Icons</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a> |
-              <a href="https://iconscout.com/icons/figma" class="text-underline font-size-sm" target="_blank">Figma</a> by <a href="https://iconscout.com/contributors/icon-54" class="text-underline font-size-sm" target="_blank">Icon 54</a> |
-              <a href="https://iconscout.com/icons/instagram" class="text-underline font-size-sm" target="_blank">Instagram</a> by <a href="https://iconscout.com/contributors/icon-mafia" class="text-underline font-size-sm" target="_blank">Icon Mafia</a>
-
-
-          </p>
+      const year = new Date().getFullYear();
+        return (<><section id="footer" class="text-xs font-header bg-light-purple text-medium-purple text-center pt-16 pb-8" >
+            <p>Copyright {year} Mallory Joy. All Rights Reserved.</p>
+            <p>Icons by <a className="underline" href="https://icons8.com/">Icons8</a> | <a className="underline" href="https://github.com/malloryjoy" target="_blank" aria-label="GitHub link (opens in a new tab)">View GitHub</a></p>
             </section>
               
         </>)

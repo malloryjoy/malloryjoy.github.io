@@ -7,14 +7,21 @@
   --color-header-purple: #bd8dfa;
   --color-light-purple: #e6d3fe;
   --color-bio-purple: #D9B9F8;
+  --color-second-purple: #9449F6;
   --color-medium-purple: #4C03AA;
   --color-dark-purple: #4b03a8;
+  --color-darkest-purple: #2d0067;
   --color-skills-pink: #E5D2FD;
   --color-white: #fff;
   --color-blurple: #6E05F3;
-  --color-darkmode-header: #15012c;
+  --color-image-border:#4a02ae;
+  --color-darkmode-header: #14012C;
+  --color-darkmode-header-text: #D9B9F8;
+  --color-darkmode-body: #2D0067;
   --text-shadow-sm: 1px 1px 1px rgba(0, 0, 0, 29%);
   --text-shadow-xl: 1px 1px 1px var(--color-dark-purple);
   --text-shadow-dark: 1px 1px 1px #000;
+  
 
 }
+
