@@ -12,15 +12,19 @@ export default function Nav() {
     { href: "#contact", label: "Contact" },
     { href: "/ux-portfolio.html", label: "UX Portfolio" },
   ];
+  
 
-  return (
-    <nav className="relative pt-6 z-50 bg-header-purple h-[15em]">
+  
+
+  return (<>
+    
+    <nav className="relative pt-2 h-[10em] bg-header-purple dark:bg-dark-header">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 flex justify-center">
         {/* Desktop Nav */}
-        <ul className="pt-25 hidden md:flex justify-center space-x-8 overflow-x-auto">
+        <ul className="pt-15 hidden md:flex justify-center space-x-8 overflow-x-auto">
           {navLinks.map((link) => (
             <li key={link.label}>
-              <a href={link.href} className="navItem font-extrabold uppercase text-xl text-medium-purple flex justify-between">
+              <a href={link.href} className="navItem font-extrabold uppercase text-xl flex justify-between text-medium-purple dark:text-bio-purple hover:underline">
                 {link.label}
               </a>
             </li>
@@ -33,17 +37,17 @@ export default function Nav() {
           className="md:hidden flex flex-col items-center space-y-1.5 w-14 h-12 focus:outline-none"
         >
           <span
-            className={`h-1 w-10 bg-medium-purple rounded transition-transform duration-300 origin-center ${
+            className={`h-1 w-10 rounded transition-transform duration-300 origin-center bg-medium-purple dark:bg-bio-purple ${
               isOpen ? "rotate-45 translate-y-2.5" : ""
             }`}
           />
           <span
-            className={`h-1 w-10 bg-medium-purple rounded transition-opacity duration-300 ${
+            className={`h-1 w-10 rounded transition-opacity duration-300 bg-medium-purple dark:bg-bio-purple ${
               isOpen ? "opacity-0" : ""
             }`}
           />
           <span
-            className={`h-1 w-10 bg-medium-purple rounded transition-transform duration-300 origin-center ${
+            className={`h-1 w-10 rounded transition-transform duration-300 origin-center  bg-medium-purple dark:bg-bio-purple ${
               isOpen ? "-rotate-45 -translate-y-1.5" : ""
             }`}
           />
@@ -120,6 +124,6 @@ export default function Nav() {
         </div>
       )}
     </nav>
-  );
+    </>);
 }
 

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark &));
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
 @theme {
@@ -6,6 +7,7 @@
   --font-body: "Helvetica", sans-serif;
   --color-header-purple: #bd8dfa;
   --color-light-purple: #e6d3fe;
+  --color-card-hover: #EDDFFE;
   --color-bio-purple: #D9B9F8;
   --color-second-purple: #9449F6;
   --color-medium-purple: #4C03AA;
@@ -15,9 +17,11 @@
   --color-white: #fff;
   --color-blurple: #6E05F3;
   --color-image-border:#4a02ae;
-  --color-darkmode-header: #14012C;
-  --color-darkmode-header-text: #D9B9F8;
-  --color-darkmode-body: #2D0067;
+  --color-dark-header: #14012C;
+  --color-dark-header-text: #D9B9F8;
+  --color-dark-body: #2D0067;
+  --color-dark-border: #6E05F3;
+  --color-dark-card-hover: #2D0067;
   --text-shadow-sm: 1px 1px 1px rgba(0, 0, 0, 29%);
   --text-shadow-xl: 1px 1px 1px var(--color-dark-purple);
   --text-shadow-dark: 1px 1px 1px #000;
