@@ -30,7 +30,7 @@ class Toggle extends React.Component {
         className="h-[5em] bg-header-purple dark:bg-dark-header
                    text-medium-purple dark:text-skills-pink"
       >
-        <div className="pt-10 mr-5 float-right flex items-center gap-3">
+        <div className="pt-10 mr-5 justify-center md:float-right  flex items-center gap-3">
           <i
             className={`fa-solid fa-sun fa-xl transition-opacity duration-300
               ${isDark ?  'text-medium-purple' : 'text-skills-pink'}`}

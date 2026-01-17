@@ -25,6 +25,9 @@
   --text-shadow-sm: 1px 1px 1px rgba(0, 0, 0, 29%);
   --text-shadow-xl: 1px 1px 1px var(--color-dark-purple);
   --text-shadow-dark: 1px 1px 1px #000;
+  --breakpoint-sm: 675px;
+  --breakpoint-md: 800px;
+  --breakpoint-xl: 1200px;
   
 
 }
