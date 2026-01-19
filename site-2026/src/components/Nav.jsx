@@ -21,7 +21,7 @@ export default function Nav() {
     <nav className="relative pt-2 h-[10em] bg-header-purple dark:bg-dark-header">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 flex justify-center">
         {/* Desktop Nav */}
-        <ul className="pt-15 hidden md:flex justify-center space-x-8 overflow-x-auto">
+        <ul className="pt-10 hidden md:flex justify-center space-x-8 overflow-x-auto">
           {navLinks.map((link) => (
             <li key={link.label}>
               <a href={link.href} className="navItem font-extrabold uppercase text-xl flex justify-between text-medium-purple dark:text-bio-purple hover:underline">

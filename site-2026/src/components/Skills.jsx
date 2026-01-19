@@ -2,8 +2,8 @@ import React from 'react';
 
 class Expertise extends React.Component {
   render() {
-    return (<section id="skills-section"className="py-20 flex flex-col items-center justify-center bg-skills-pink dark:bg-dark-body text-medium-purple dark:text-skills-pink" role="region" aria-label="Areas of Expertise">
-        <h2 className="font-header text-3xl py-4 text-medium-purple dark:text-skills-pink">Skills and Stacks</h2>
+    return (<section id="skills" className="py-20 flex flex-col items-center justify-center bg-skills-pink dark:bg-dark-body text-medium-purple dark:text-skills-pink" role="region" aria-label="Areas of Expertise">
+        <h2 className="font-header text-3xl pt-4 pb-15 text-medium-purple dark:text-skills-pink">Skills</h2>
         <div id="skills-grid" className="md:grid grid-cols-4 gap-2 sm:grid grid-cols-2 gap-4">
           
           <svg className="fill-medium-purple dark:fill-skills-pink w-12 h-12" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" /></svg>
