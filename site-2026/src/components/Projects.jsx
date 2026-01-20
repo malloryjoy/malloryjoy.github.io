@@ -13,8 +13,8 @@ class Projects extends React.Component {
                 <p className="font-body text-left px-5 dark:text-skills-pink">Website built for Orlando based golf club. This site details the club’s amenities and offers online tee time booking. <br /><b>
                     <span className="text-sm dark:text-skills-pink">Built with: Wordpress CMS | HTML | CSS | PHP | Component Based Library </span></b>
                 </p>
-                <a className="flex items-center justify-center w-[8em] hover:w-[10em] h-[2em] border-2 font-header rounded-full mt-5 mr-2 float-right border-darkest-purple bg-medium-purple
-                 text-white  hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline" href="https://www.providence-golf.com/" aria-label="View Website (opens in a new tab)" target="_blank">View Website <i class="fa-solid fa-arrow-right"></i> </a>
+                <a className="flex items-center justify-center w-[8em] h-[2em] border-2 font-header rounded-full mt-5 mr-2 float-right border-darkest-purple bg-medium-purple
+                 text-white  hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline" href="https://www.providence-golf.com/" aria-label="View Website (opens in a new tab)" target="_blank">View Website</a>
 
             </div>
             <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
