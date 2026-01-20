@@ -1,6 +1,7 @@
 {
   "name": "site-2026",
   "private": true,
+  "homepage": "https://malloryjoy.dev/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
