@@ -10,7 +10,7 @@ class About extends React.Component {
           
             <div role="region" id="mystory" aria-label="about me" className="mx-[5em] lg:mx-[20em] py-15">
             <div className="flex flex-col md:flex-row">
-            <img className="rounded-xl w-[27em] h-[35em] md:min-w-[25em] md:min-h-[30em]" id="defaultimage" src="./assets/myface.png" alt="Mallory Joy face" />
+            <img className="rounded-xl w-[27em] h-[35em] md:min-w-[25em] md:min-h-[30em]" id="defaultimage" src="assets/myface.png" alt="Mallory Joy face" />
             <div className="my-10 -mx-5 rounded-xl py-5 px-5 border-t-6 
             border-r-6 border-l-12 border-b-12 bg-bio-purple border-medium-purple dark:bg-dark-header
              dark:border-dark-border w-[32em] h-[35em] md:min-w-[30em] md:-mx-[5em]">

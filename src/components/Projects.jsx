@@ -9,7 +9,7 @@ class Projects extends React.Component {
             <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10 bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Providence Golf Club</h2>
-                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="/src/assets/providencegolf.png"></img>
+                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/providencegolf.png"></img>
                 <p className="font-body text-left px-5 dark:text-skills-pink">Website built for Orlando based golf club. This site details the club’s amenities and offers online tee time booking. <br /><b>
                     <span className="text-sm dark:text-skills-pink">Built with: Wordpress CMS | HTML | CSS | PHP | Component Based Library </span></b>
                 </p>
@@ -20,7 +20,7 @@ class Projects extends React.Component {
             <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Seaview Golf Club</h2>
-                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="/src/assets/SeaviewGolf.png"></img>
+                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/SeaviewGolf.png"></img>
                 <p className="font-body text-left px-5 dark:text-skills-pink"> Website built for luxury golf course in New Jersey, known for sprawling landscape and events hosting. <br /><br /><b>
                     <span className="text-sm dark:text-skills-pink">Built with: Wordpress CMS | HTML | CSS | PHP | Component Based Library </span></b>
                 </p>
@@ -31,7 +31,7 @@ class Projects extends React.Component {
             <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">GolfNow Template Library</h2>
-                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="/src/assets/GolfNowTemplateLibrary.png"></img>
+                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/GolfNowTemplateLibrary.png"></img>
                 <p className="font-body text-left px-5 dark:text-skills-pink">Project completed from scope-to-launch detailing available designs and specifications for GolfNow clients.<br /><b>
                     <span className="text-sm dark:text-skills-pink">Built with: Figma | Wordpress CMS | HTML | CSS | Component Based Library </span></b>
                 </p>
@@ -42,7 +42,7 @@ class Projects extends React.Component {
             <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Charcuterie Board Generator</h2>
-                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="/src/assets/charcuteriegenerator.png"></img>
+                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/charcuteriegenerator.png"></img>
                 <p className="font-body text-left px-5 dark:text-skills-pink">Create a charcuterie board based on the cheese you have in your fridge! 
                     Uses Native JS as well as related frameworks.<br /><b>
                     <span className="text-sm dark:text-skills-pink">Built with: HTML | CSS | JS | Figma | Node Package Manager</span></b>
@@ -55,7 +55,7 @@ class Projects extends React.Component {
             <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Movie Night Selector</h2>
-                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="/src/assets/moviegenerator.png"></img>
+                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/moviegenerator.png"></img>
                 <p className="font-body text-left px-5 dark:text-skills-pink">Perfect for a girls’ night, when you can’t decide what classic to pull up with some popcorn.<br /><br /><b>
                     <span className="text-sm dark:text-skills-pink">Built with: HTML | CSS | React | Tailwind | Vite | Node Package Manager </span></b>
                 </p>
@@ -68,7 +68,7 @@ class Projects extends React.Component {
             <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Imagi Charms</h2>
-                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="/src/assets/ImagiLabs.png"></img>
+                <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/ImagiLabs.png"></img>
                 <p className="font-body text-left px-5 dark:text-skills-pink">Creating monthly animations with Python based code for a Bluetooth keychain! <br /><br /><b>
                     <span className="text-sm dark:text-skills-pink">Built with: HTML | CSS | JS | Python </span></b><br /><br />
                 </p>
