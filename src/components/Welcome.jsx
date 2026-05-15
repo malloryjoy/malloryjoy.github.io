@@ -7,7 +7,7 @@ class Welcome extends React.Component {
     
 
     render() {        
-        return (<><section id="welcome" role="region" aria-label="my portfolio" className="bg-[url(public/assets/lightbg2.png)] bg-cover dark:bg-[url(public/assets/dark_bg1.png)]" >
+        return (<><section id="welcome" role="region" aria-label="my portfolio" className="bg-[url(/assets/lightbg2.png)] bg-cover dark:bg-[url(/assets/dark_bg1.png)]" >
             <Toggle />
             <Nav />
             <div id="hd-lspcmn" className="pt-20"></div>
