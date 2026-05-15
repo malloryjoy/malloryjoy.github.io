@@ -1,8 +1,9 @@
+
+import React from 'react';
+import '/src/index.css';
 /* eslint-disable no-unused-vars */
 import { motion } from 'motion/react';
 /* eslint-enable no-unused-vars */
-import React from 'react';
-import '/src/index.css';
 
 
 class Projects extends React.Component {
