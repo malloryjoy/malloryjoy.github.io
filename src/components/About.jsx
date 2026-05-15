@@ -1,6 +1,8 @@
 import React from 'react';
 import '/src/index.css';
+/* eslint-disable no-unused-vars */
 import { motion } from 'motion/react';
+/* eslint-enable no-unused-vars */
 
 
 class About extends React.Component {
