@@ -1,4 +1,9 @@
+/* eslint-disable no-unused-vars */
+import { motion } from 'motion/react';
+/* eslint-enable no-unused-vars */
 import React from 'react';
+import '/src/index.css';
+
 
 class Projects extends React.Component {
     render() {
@@ -6,7 +11,11 @@ class Projects extends React.Component {
         return (<><section id="projects" role="region" aria-label="Sample Work" className="flex flex-col items-center justify-center px-4 py-20 bg-bio-purple dark:bg-dark-header">
             <h2 className="pt-5 pb-15 text-3xl font-header text-medium-purple dark:text-skills-pink">Sample Work</h2>
             <div className="grid gap-4 grid-cols-1 md:grid-cols-3  lg:grid-cols-3">
-            <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
+            <motion.div
+                            initial={{ opacity: 0, x: -40 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.6, ease: 'easeOut' }}
+                            viewport={{ once: true }} className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10 bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Providence Golf Club</h2>
                 <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/providencegolf.png"></img>
@@ -16,8 +25,12 @@ class Projects extends React.Component {
                 <a className="flex items-center justify-center w-[8em] h-[2em] border-2 font-header rounded-full mt-5 mr-2 float-right border-darkest-purple bg-medium-purple
                  text-white  hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline" href="https://www.providence-golf.com/" aria-label="View Website (opens in a new tab)" target="_blank">View Website</a>
 
-            </div>
-            <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
+            </motion.div>
+            <motion.div
+                                initial={{ opacity: 0, x: -40 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }}
+                                viewport={{ once: true }} className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Seaview Golf Club</h2>
                 <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/SeaviewGolf.png"></img>
@@ -27,8 +40,12 @@ class Projects extends React.Component {
                 <a className="flex items-center justify-center w-[8em] h-[2em] border-2 font-header rounded-full mt-5 mr-2 float-right border-darkest-purple bg-medium-purple
                  text-white  hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline" href="https://www.seaviewgolf.com/" aria-label="View Website (opens in a new tab)" target="_blank">View Website</a>
 
-            </div>
-            <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
+            </motion.div>
+            <motion.div
+                                initial={{ opacity: 0, x: -40 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
+                                viewport={{ once: true }} className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">GolfNow Template Library</h2>
                 <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/GolfNowTemplateLibrary.png"></img>
@@ -38,8 +55,12 @@ class Projects extends React.Component {
                 <a className="flex items-center justify-center w-[8em] h-[2em] border-2 font-header rounded-full mt-5 mr-2 float-right border-darkest-purple bg-medium-purple
                  text-white  hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline" href="https://golfnowbusiness.com/template-library/" aria-label="View Website" target="_blank">View Website</a>
 
-            </div>
-            <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
+            </motion.div>
+            <motion.div
+                            initial={{ opacity: 0, x: -40 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.6, ease: 'easeOut' }}
+                            viewport={{ once: true }}  className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Charcuterie Board Generator</h2>
                 <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/charcuteriegenerator.png"></img>
@@ -51,8 +72,12 @@ class Projects extends React.Component {
                  text-white  hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline"  href="https://github.com/malloryjoy/charcuterie" aria-label="View Demo" target="_blank">View GitHub</a>
                 <a className="flex items-center justify-center w-[8em] h-[2em] border-2 font-header rounded-full mt-5 mr-2 float-right border-darkest-purple bg-medium-purple
                  text-white hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline"  href="https://www.malloryjoy.dev/charcuterie" aria-label="View Demo" target="_blank">View Demo</a>
-            </div>
-            <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
+            </motion.div>
+            <motion.div
+                                initial={{ opacity: 0, x: -40 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }}
+                                viewport={{ once: true }} className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Movie Night Selector</h2>
                 <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/moviegenerator.png"></img>
@@ -64,8 +89,12 @@ class Projects extends React.Component {
                 <a className="flex items-center justify-center w-[8em] h-[2em] border-2 font-header rounded-full mt-5 mr-2 float-right border-darkest-purple bg-medium-purple
                  text-white hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline"  href="https://malloryjoy.dev/movie-generator/" aria-label="View Website">View Demo</a>
 
-            </div>
-            <div className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
+            </motion.div>
+            <motion.div
+                                initial={{ opacity: 0, x: -40 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
+                                viewport={{ once: true }}  className="w-[20em] h-[28em] rounded-[20px] border-t-2 border-r-2 border-l-10
             border-b-10  bg-light-purple border-blurple hover:bg-card-hover dark:bg-medium-purple dark:border-dark-border dark:hover:bg-dark-card-hover">
                 <h2 className="font-header text-xl pb-5 pt-5 text-blurple dark:text-skills-pink">Imagi Charms</h2>
                 <img className="rounded-xl max-w-65 mx-5 mb-5 shadow-[-5px_5px_0_#4a02ae]" src="assets/ImagiLabs.png"></img>
@@ -76,7 +105,7 @@ class Projects extends React.Component {
                  text-white hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline"  href="https://github.com/malloryjoy/imagiLabs" aria-label="View Demo" target="_blank">View GitHub</a>
                 <a className="flex items-center justify-center w-[8em] h-[2em] border-2 font-header rounded-full mt-5 mr-2 float-right border-darkest-purple bg-medium-purple
                  text-white hover:bg-darkest-purple dark:border-dark-purple dark:bg-blurple dark:hover:bg-dark-purple no-underline hover:underline"  href="https://malloryjoy.dev/imagiLabs/" aria-label="View Website">View Demo</a>
-            </div>
+            </motion.div>
             
             </div>
             </section>
