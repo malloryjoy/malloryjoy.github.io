@@ -11,14 +11,14 @@ class About extends React.Component {
         return (<><section id="aboutme" role="main" className="bg-header-purple dark:bg-dark-header">
           
           
-            <div role="region" id="mystory" aria-label="about me" className="fadeInRight mx-[5em] lg:mx-[20em] py-15">
+            <div role="region" id="mystory" aria-label="about me" className="mx-[5em] lg:mx-[20em] py-15">
             <div className="flex flex-col md:flex-row">
             <motion.img
                                 initial={{ opacity: 0, x: -40 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.6, ease: 'easeOut' }}
                                 viewport={{ once: true }}
-                                className="rounded-xl w-[27em] h-[35em] md:min-w-[25em] md:min-h-[30em]"
+                                className="rounded-xl w-full max-w-[27em] h-auto md:min-w-[30em] md:max-w-[30em]"
                                 src="assets/myface.png"
                                 alt="Mallory Joy face"
                             />
