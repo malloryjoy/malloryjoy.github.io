@@ -11,8 +11,8 @@ class About extends React.Component {
         return (<><section id="aboutme" role="main" className="bg-header-purple dark:bg-dark-header">
           
           
-            <div role="region" id="mystory" aria-label="about me" className="mx-[5em] lg:mx-[20em] py-15">
-            <div className="flex flex-col md:flex-row">
+            <div role="region" id="mystory" aria-label="about me" className="mx-4 md:mx-[5em] lg:mx-[20em] py-15">
+            <div className="flex flex-col md:flex-row md:justify-center">
             <motion.img
                                 initial={{ opacity: 0, x: -40 }}
                                 whileInView={{ opacity: 1, x: 0 }}
@@ -31,7 +31,7 @@ class About extends React.Component {
                                 className="block mx-auto my-10 rounded-xl py-5 px-5 border-6
                                 md:border-t-6 md:border-r-6 md:border-l-12 md:border-b-12
                                 bg-bio-purple border-medium-purple dark:bg-dark-header
-                                dark:border-dark-border w-full max-w-[20em] min-h-[38em] md:w-auto md:min-w-[30em] md:-mx-[5em]"
+                                dark:border-dark-border w-full max-w-[20em] min-h-[38em] md:w-auto md:min-w-[30em] md:-ml-[5em]"
                             >
                                 <h2 className="bg-[url(/assets/bubble1.gif)] dark:bg-[url(/assets/starlight_bg_1.gif)] bg-no-repeat bg-cover flex initial font-header text-left text-3xl my-5 text-medium-purple dark:text-skills-pink" aria-label="Hi! I'm Mallory.">Hi! I'm Mallory.</h2>
                                 <p className="flex initial font-body font-bold text-left text-medium-purple dark:text-skills-pink">I am a front-end developer based out of the east coast of the United States.
