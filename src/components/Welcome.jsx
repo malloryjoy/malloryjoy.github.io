@@ -12,7 +12,7 @@ class Welcome extends React.Component {
             <Nav />
             <div id="hd-lspcmn" className="pt-20"></div>
            <div aria-labelledby="Mallory Joy">
-           <h1 className="fadeInUp-animation font-header text-6xl text-dark-purple dark:text-skills-pink">MALLORY JOY</h1>
+           <h1 className="fadeInUp-animation font-header mx-3 text-4xl text-dark-purple dark:text-skills-pink">MALLORY JOY</h1>
            <div className="fadeInUp-animation py-10 font-header text-xl text-dark-purple dark:text-skills-pink"><p>Creating Magic, One Design at a Time</p></div>
            <div className="fadeInUp-animation  mt-5 pb-20 text-4xl text-medium-purple dark:text-skills-pink">
             <a href="https://www.github.com/malloryjoy"><i class="fa-brands fa-github"></i></a>

@@ -18,7 +18,7 @@ class About extends React.Component {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.6, ease: 'easeOut' }}
                                 viewport={{ once: true }}
-                                className="rounded-xl w-full max-w-[27em] h-auto md:min-w-[30em] md:max-w-[30em]"
+                                className="block mx-auto rounded-xl w-full max-w-[27em] h-auto md:min-w-[30em] md:max-w-[30em]"
                                 src="assets/myface.png"
                                 alt="Mallory Joy face"
                             />
@@ -28,9 +28,10 @@ class About extends React.Component {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }}
                                 viewport={{ once: true }}
-                                className="my-10 -mx-5 rounded-xl py-5 px-5 border-t-6 
-                                border-r-6 border-l-12 border-b-12 bg-bio-purple border-medium-purple dark:bg-dark-header
-                                dark:border-dark-border w-[22em] min-h-[38em] md:min-w-[30em] md:-mx-[5em]"
+                                className="block mx-auto my-10 rounded-xl py-5 px-5 border-6
+                                md:border-t-6 md:border-r-6 md:border-l-12 md:border-b-12
+                                bg-bio-purple border-medium-purple dark:bg-dark-header
+                                dark:border-dark-border w-full max-w-[20em] min-h-[38em] md:w-auto md:min-w-[30em] md:-mx-[5em]"
                             >
                                 <h2 className="bg-[url(/assets/bubble1.gif)] dark:bg-[url(/assets/starlight_bg_1.gif)] bg-no-repeat bg-cover flex initial font-header text-left text-3xl my-5 text-medium-purple dark:text-skills-pink" aria-label="Hi! I'm Mallory.">Hi! I'm Mallory.</h2>
                                 <p className="flex initial font-body font-bold text-left text-medium-purple dark:text-skills-pink">I am a front-end developer based out of the east coast of the United States.
